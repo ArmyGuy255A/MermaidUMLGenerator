@@ -259,7 +259,7 @@ static class Program
             enableNestedInheritance
         );
         await File.WriteAllTextAsync(outputPath, mermaidOutput);
-        Console.WriteLine($"✅ UML diagram saved to: {outputPath}");
+        Console.WriteLine($"UML diagram saved to: {outputPath}");
     }
 }
 
